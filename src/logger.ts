@@ -93,6 +93,4 @@ const DEFAULT_LOGGER_CONFIG = {
   transports: [transport],
 };
 
-const logger = createLogger(DEFAULT_LOGGER_CONFIG);
-
-export default logger;
+export const logger = createLogger(DEFAULT_LOGGER_CONFIG);
